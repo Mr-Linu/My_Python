@@ -1,4 +1,13 @@
 1. DataFrame
     A DataFrame is a table. It contains an array of individual entries, each of which has a certain
     value. Each entry corresponds to a row (or record) and a column.
-    
+
+2. Series
+    A Series, by contrast, is a sequence of data values. If a DataFrame is a table, a Series is
+    a list. And in fact you can create one with nothing more than a list
+
+3. Indexing
+    iloc[r,c] - takes numbers and number lists as values
+    loc[] - takes numbers and number list and text list as values. this include the ending delimiter
+
+# setting index to a desire value we use the .set_index("values")
